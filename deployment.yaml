@@ -15,7 +15,7 @@ spec:
         app: "tekton-test"
     spec:
       containers:
-        - image: "lijunyi/tekton-test:latest"
+        - image: "lijunyi/tekton-test:v2"
           imagePullPolicy: "Always"
           livenessProbe:
             failureThreshold: 3
