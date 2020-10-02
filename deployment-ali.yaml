@@ -17,7 +17,7 @@ spec:
       imagePullSecrets:
         - name: ali-dockerhub-secret
       containers:
-        - image: "registry.cn-hangzhou.aliyuncs.com/lijunyi01/tekton-test:latest"
+        - image: "registry.cn-hangzhou.aliyuncs.com/lijunyi01/tekton-test:v3"
         #- image: "lijunyi01/tekton-test:latest"
           imagePullPolicy: "Always"
           livenessProbe:
