@@ -15,8 +15,8 @@ spec:
         app: "tekton-test"
     spec:
       containers:
-        #- image: "registry.cn-hangzhou.aliyuncs.com/lijunyi01/tekton-test:latest"
-        - image: "lijunyi01/tekton-test:latest"
+        - image: "registry.cn-hangzhou.aliyuncs.com/lijunyi01/tekton-test:latest"
+        #- image: "lijunyi01/tekton-test:latest"
           imagePullPolicy: "Always"
           livenessProbe:
             failureThreshold: 3
